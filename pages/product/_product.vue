@@ -1,13 +1,13 @@
 <template>
-  <h1>{{ this.slug }}a</h1>
+  <ProductSee />
 </template>
 
 <script>
   export default {
     async asyncData({ params }) {
       console.log(params)
-      const slug = params // When calling /abc the slug will be "abc"
-      return { slug }
+      const product = params.product // When calling /abc the slug will be "abc"
+      return { product }
     }
   }
 </script>
