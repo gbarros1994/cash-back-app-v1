@@ -1,7 +1,0 @@
-<template>
-  <v-row>
-    <v-col md="12">
-      <Carousel />
-    </v-col>
-  </v-row>
-</template>
